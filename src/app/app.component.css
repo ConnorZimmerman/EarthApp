@@ -1,0 +1,21 @@
+.gridContainer {
+    width:1020px;
+    height:960px;
+}
+
+.gridBlock {
+    padding: 10px;
+}
+
+img{
+    width: 600px;
+    height: 600px;
+}
+
+.red {
+    color: red;
+}
+
+form{
+    margin-bottom: 40px;
+}
