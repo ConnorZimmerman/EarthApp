@@ -4,7 +4,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Steps before build
 
-Add npm @angular/cli 'npm install -g @angular/cli'
+1. Clone this repository:
+`https://github.com/ConnorZimmerman/EarthApp`
+3. Add npm if not already installed:
+`npm install`
+2. Add npm @angular/cli if not alread installed: 
+ `npm install -g @angular/cli`
 
 ## Development server
 
