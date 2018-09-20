@@ -135,7 +135,7 @@ export class DataService {
 
   ParseLat(coordinates) {
     let y = "";
-    var latCheck = false;
+    let latCheck = false;
     for (let digit of coordinates) {
       if (latCheck) {
         y += digit;
