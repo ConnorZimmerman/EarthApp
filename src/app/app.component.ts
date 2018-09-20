@@ -21,9 +21,6 @@ export class AppComponent {
   errorMsgBool = false;
   errorMsg = "";
   renderImg = false;
-  parsedLatInt = 0;
-  parsedLongInt = 0;
-  finalCoords = "";
   constructor(private _dataService: DataService) {
   }
   RetrieveImages(coordinates) {
@@ -38,7 +35,7 @@ export class AppComponent {
       },
         error => {
           this.errorMsgBool = true;
-          this.errorMsg = "Sorry, it appears the coordinates you entered could not render an image! Please try again. Examples: 42.7777,1.5 or 78,9";
+          this.errorMsg = "Sorry, it appears the coordinates you entered could not render all the images. Please try again. Examples: 42.7777,1.5 or 78,9";
           this.renderImg = false;
         });;
     }
