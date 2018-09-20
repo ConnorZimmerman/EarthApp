@@ -7,7 +7,7 @@ This Angular app utilizes user coordinate input to display satellite images of E
 1. Clone this repository:
 `git clone https://github.com/ConnorZimmerman/EarthApp`
 2. Install npm @angular/cli in projects root directory: 
- `npm install -g @angular/cli`
+ `npm install -g @angular-cli`
 3. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
