@@ -1,6 +1,6 @@
 # RsmEarthApp
 
-This Angular app utitlizes user coordinate input to display satellite images of Earth via NASA's API.
+This Angular app utilizes user coordinate input to display satellite images of Earth via NASA's API.
 
 ## Steps before build
 
