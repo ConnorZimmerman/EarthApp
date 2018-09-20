@@ -5,15 +5,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Steps before build
 
 1. Clone this repository:
-`https://github.com/ConnorZimmerman/EarthApp`
-3. Add npm if not already installed:
+`git clone https://github.com/ConnorZimmerman/EarthApp`
+2. Add npm if not already installed:
 `npm install`
-2. Add npm @angular/cli if not alread installed: 
+3. Add npm @angular/cli if not alread installed: 
  `npm install -g @angular/cli`
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` within project root directory for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
