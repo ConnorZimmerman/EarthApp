@@ -2,7 +2,7 @@
 
 This Angular app utilizes user coordinate input to display satellite images of Earth via NASA's API.
 
-## Steps before build
+## Steps for setup
 
 1. Clone this repository:
 `git clone https://github.com/ConnorZimmerman/EarthApp`
@@ -10,10 +10,7 @@ This Angular app utilizes user coordinate input to display satellite images of E
 `npm install`
 3. Install npm @angular/cli if not alread installed: 
  `npm install -g @angular/cli`
-
-## Development server
-
-Run `ng serve` within project root directory for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+4. Run `ng serve` within the project root directory for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
