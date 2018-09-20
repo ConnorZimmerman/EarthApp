@@ -1,12 +1,27 @@
 <div style="text-align:center">
   <h1>Earth App</h1>
-  <form id="coordinateForm" #coordinateFormData='ngForm' (submit)="RetrieveImage(userInput)">
+  <form id="coordinateForm" #coordinateFormData='ngForm' (submit)="RetrieveImages(userInput)">
     <label>Coordinates:</label>
     <input name="userInput" [(ngModel)]="userInput" type='text' placeholder="x,y">
     <input type="submit">
     <div *ngIf=errorMsgBool class='red'>{{errorMsg}}</div>
   </form>
   <div *ngIf='renderImg'>
-      <img src='{{imageObject.url}}' usemap='#Map'>
+    <div id="topRow">
+      <img src='{{imageObject0.url}}' usemap='#Map'>
+        <img src='{{imageObject1.url}}' usemap='#Map'>
+        <img src='{{imageObject2.url}}' usemap='#Map'>
+    </div>
+    <div id="middleRow">
+      <img src='{{imageObject3.url}}' usemap='#Map'>
+        <img src='{{imageObject4.url}}' usemap='#Map'>
+        <img src='{{imageObject5.url}}' usemap='#Map'>
+    </div>
+    <div id="bottomRow">
+      <img src='{{imageObject6.url}}' usemap='#Map'>
+        <img src='{{imageObject7.url}}' usemap='#Map'>
+        <img src='{{imageObject8.url}}' usemap='#Map'>
+    </div>
+    
   </div>
 </div>
